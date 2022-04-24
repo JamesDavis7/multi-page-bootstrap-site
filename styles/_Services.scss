@@ -1,0 +1,40 @@
+// header image and logo
+
+.ServicesPageImage{
+    object-fit: cover; 
+    height: 50vh;
+    object-position: 50% 38%;
+    opacity: 75%
+}
+
+.ServicesPageLogo{
+    font-size: 95px;
+    font-family: $MainFont;
+    letter-spacing: 2px;
+}
+
+// end of header image and logos
+
+// media queries
+
+@media screen and (max-width: 1198px){
+        .ServicesPageLogo{
+        font-size: 70px !important
+    }
+}
+
+// Medium Screen Font
+@media screen and (max-width: 642px){
+        .ServicesPageLogo{
+        font-size: 60px !important
+    }
+}
+
+// Small Screen Font
+@media screen and (max-width: 448px){
+        .ServicesPageLogo{
+        font-size: 50px !important
+    }
+}
+
+// end of media queries

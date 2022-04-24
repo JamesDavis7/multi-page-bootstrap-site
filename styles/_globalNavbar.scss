@@ -1,0 +1,43 @@
+.navbar{
+    background-color: rgb(20, 20, 20);
+}
+.navbar-brand{
+    font-weight: 400;
+    font-family: 'Allan';
+    font-size: 35px !important;
+    color: white;
+}
+
+.themeAdder{
+    color: $ColorTheme;
+}
+
+.nav-link{
+    font-size: 18px !important;
+}
+
+a.nav-link.active{
+    border-bottom: 5px solid $ColorTheme;
+    color: $ColorTheme !important;
+}
+
+a.nav-link:hover{
+    color: $ColorTheme !important;
+    transition: color 0.10s linear;
+}
+
+.socialIcon{
+    color: $ColorTheme !important;
+    font-size: 22px;
+}
+
+.navbar-toggler-icon{
+    color: $ColorTheme; 
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.navbar-toggler:focus{
+    outline: none;
+}
+

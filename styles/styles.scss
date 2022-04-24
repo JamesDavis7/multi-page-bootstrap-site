@@ -1,0 +1,25 @@
+// Fonts
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allan&family=Permanent+Marker&display=swap');
+
+// Variables
+
+$MainFont: 'Oswald';
+$ColorTheme: rgb(247, 232, 22);
+
+// Page Style Imports
+
+@import 'index';
+@import 'About';
+@import 'Contact';
+@import 'PhotoReel';
+@import 'Services';
+@import 'globalNavbar';
+
+
+// stop scrollbar from displaying
+::-webkit-scrollbar {
+    display: none;
+}
+

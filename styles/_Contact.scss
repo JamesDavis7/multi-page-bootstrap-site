@@ -1,0 +1,74 @@
+// header image and logo
+
+.ContactPageImage{
+    object-fit: cover; 
+    height: 50vh;
+    object-position: 50% 75%;
+    opacity: 50%
+}
+
+.ContactPageLogo{
+    font-size: 95px;
+    font-family: $MainFont;
+    letter-spacing: 2px;
+}
+
+// end of header image and logo
+
+// enquiry form
+
+.messageBox{
+    padding-top: 5px;
+    outline: none;
+}
+
+.form-control{
+    outline: none;
+}
+
+.enquiryItem{
+    margin-bottom: 0px !important;
+}
+
+.form-control{
+    margin-top: 5px !important;
+}
+
+.form-group{
+    margin-bottom: 10px !important;
+}
+
+.sendFormBtn{
+    margin-top: 0px !important;
+}
+
+// Large Screen Font
+
+
+
+
+//end of enquiry form
+
+// media queries
+
+@media screen and (max-width: 1198px){
+        .ContactPageLogo{
+        font-size: 70px !important
+    }
+}
+
+// Medium Screen Font
+@media screen and (max-width: 642px){
+        .ContactPageLogo{
+        font-size: 60px !important
+    }
+}
+
+// Small Screen Font
+@media screen and (max-width: 448px){
+        .ContactPageLogo{
+        font-size: 50px !important
+    }
+}
+
+// end of media queries

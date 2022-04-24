@@ -1,0 +1,476 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allan&family=Permanent+Marker&display=swap");
+body {
+  background: #141414 !important;
+}
+
+.sectionText {
+  font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 50px;
+}
+
+.myImg {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.carousel-item .carousel-image {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 92vh;
+  -o-object-position: middle top;
+     object-position: middle top;
+}
+
+.carousel-item .carousel-caption {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.carousel-item .CaptionLogo {
+  font-family: "Oswald";
+  font-size: 95px;
+  letter-spacing: 2px;
+}
+
+.carousel-item .LowerLogoText {
+  font-size: 25px;
+  font-weight: 600;
+  color: #f7e816;
+}
+
+.carousel-item .lowerBtn {
+  padding: 15px 20px 15px 20px;
+  width: 250px;
+  margin: 10px 10px 0px 10px;
+}
+
+.lowerBtn:focus {
+  outline: none;
+}
+
+.PhotoReelButton, .ServicesButton {
+  text-decoration: none !important;
+  width: 260px !important;
+  background: transparent;
+  background: white;
+  color: #141414 !important;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+  border: 1px solid white !important;
+}
+
+.PhotoReelButton:hover, .ServicesButton:hover {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white !important;
+  -webkit-transition: background-color 0.20s linear;
+  transition: background-color 0.20s linear;
+}
+
+.ServicesButton {
+  background: #f7e816;
+  border: 1px solid #f7e816 !important;
+}
+
+.ServicesButton:hover {
+  background-color: transparent;
+  color: #f7e816 !important;
+  -webkit-transition: background-color 0.20s linear;
+  transition: background-color 0.20s linear;
+}
+
+.STC {
+  position: absolute;
+  bottom: 45px;
+  font-size: 18px;
+  color: #f7e816;
+}
+
+.middle-image {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+  opacity: 45%;
+}
+
+.middle-image:hover {
+  opacity: 100%;
+  -webkit-transition: 0.25s opacity ease-in-out;
+  transition: 0.25s opacity ease-in-out;
+  border: 2px solid #f7e816;
+}
+
+.card-title {
+  font-family: 'Allan';
+  font-size: 30px !important;
+}
+
+.seperator {
+  background-color: rgba(100, 100, 100, 0.534) !important;
+  margin: 90px 0px 80px 0px;
+}
+
+.newsletter {
+  padding: 80px 0;
+  background: #D500F9;
+}
+
+.emailInput {
+  font-size: 20px !important;
+}
+
+.newsletter .content {
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+h2 {
+  color: #fff;
+  margin-bottom: 6px;
+}
+
+.btn {
+  margin-top: 5px;
+  margin-left: 10px;
+  border-radius: 0;
+  background: #f7e816 !important;
+  color: #fff;
+  font-weight: 500 !important;
+  font-family: 'Allan';
+  font-size: 20px !important;
+}
+
+.btn:hover {
+  background: #141414 !important;
+  color: #f7e816 !important;
+  border: 1px solid #f7e816;
+}
+
+.unsubscribe-link {
+  text-decoration: none !important;
+  font-size: 13px;
+  color: #fff;
+}
+
+.unsubscribe-link:hover {
+  text-decoration: none !important;
+  color: #f7e816;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+}
+
+.findUsDetails {
+  font-size: 14px;
+}
+
+.theFooter {
+  text-align: center;
+  background: black;
+  padding: 15px;
+}
+
+.socialIconFooter {
+  color: #f7e816 !important;
+  font-size: 22px;
+}
+
+@media screen and (max-width: 1198px) {
+  .sectionText {
+    font-size: 40px !important;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .STC {
+    display: none;
+  }
+  .CaptionLogo {
+    font-size: 70px !important;
+  }
+  .LowerLogoText {
+    font-size: 19px !important;
+  }
+  .sectionText {
+    font-size: 35px !important;
+  }
+  .socialIconFooter {
+    font-size: 20px !important;
+  }
+}
+
+@media screen and (max-width: 642px) {
+  .CaptionLogo {
+    font-size: 60px !important;
+  }
+  .LowerLogoText {
+    font-size: 15px !important;
+  }
+  .sectionText {
+    font-size: 35px !important;
+  }
+}
+
+@media screen and (max-width: 448px) {
+  .CaptionLogo {
+    font-size: 50px !important;
+  }
+  .LowerLogoText {
+    font-size: 10px !important;
+  }
+  .sectionText {
+    font-size: 25px !important;
+  }
+}
+
+.AboutPageImage {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 50vh;
+  -o-object-position: 50% 50%;
+     object-position: 50% 50%;
+  opacity: 70%;
+}
+
+.AboutPageLogo {
+  font-size: 95px;
+  font-family: "Oswald";
+  letter-spacing: 2px;
+}
+
+.AboutInfo {
+  margin-top: 75px;
+}
+
+.infoSmallTitle {
+  color: #707070 !important;
+}
+
+.infoTitle {
+  font-size: 50px;
+  font-family: "Oswald";
+  letter-spacing: 2px;
+}
+
+.AboutPageFooterTitle {
+  font-size: 35px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1198px) {
+  .AboutPageLogo {
+    font-size: 70px !important;
+  }
+}
+
+@media screen and (max-width: 642px) {
+  .AboutPageLogo {
+    font-size: 60px !important;
+  }
+}
+
+@media screen and (max-width: 448px) {
+  .AboutPageLogo {
+    font-size: 50px !important;
+  }
+}
+
+.ContactPageImage {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 50vh;
+  -o-object-position: 50% 75%;
+     object-position: 50% 75%;
+  opacity: 50%;
+}
+
+.ContactPageLogo {
+  font-size: 95px;
+  font-family: "Oswald";
+  letter-spacing: 2px;
+}
+
+.messageBox {
+  padding-top: 5px;
+  outline: none;
+}
+
+.form-control {
+  outline: none;
+}
+
+.enquiryItem {
+  margin-bottom: 0px !important;
+}
+
+.form-control {
+  margin-top: 5px !important;
+}
+
+.form-group {
+  margin-bottom: 10px !important;
+}
+
+.sendFormBtn {
+  margin-top: 0px !important;
+}
+
+@media screen and (max-width: 1198px) {
+  .ContactPageLogo {
+    font-size: 70px !important;
+  }
+}
+
+@media screen and (max-width: 642px) {
+  .ContactPageLogo {
+    font-size: 60px !important;
+  }
+}
+
+@media screen and (max-width: 448px) {
+  .ContactPageLogo {
+    font-size: 50px !important;
+  }
+}
+
+.PhotoReelPageImage {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 50vh;
+  -o-object-position: 50% 50%;
+     object-position: 50% 50%;
+  opacity: 50%;
+}
+
+.PhotoReelPageLogo {
+  font-size: 95px;
+  font-family: "Oswald";
+  letter-spacing: 2px;
+}
+
+.photo {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+  outline: none !important;
+}
+
+@media screen and (max-width: 1198px) {
+  .PhotoReelPageLogo {
+    font-size: 70px !important;
+  }
+}
+
+@media screen and (max-width: 642px) {
+  .PhotoReelPageLogo {
+    font-size: 60px !important;
+  }
+}
+
+@media screen and (max-width: 448px) {
+  .PhotoReelPageLogo {
+    font-size: 50px !important;
+  }
+}
+
+.ServicesPageImage {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 50vh;
+  -o-object-position: 50% 38%;
+     object-position: 50% 38%;
+  opacity: 75%;
+}
+
+.ServicesPageLogo {
+  font-size: 95px;
+  font-family: "Oswald";
+  letter-spacing: 2px;
+}
+
+@media screen and (max-width: 1198px) {
+  .ServicesPageLogo {
+    font-size: 70px !important;
+  }
+}
+
+@media screen and (max-width: 642px) {
+  .ServicesPageLogo {
+    font-size: 60px !important;
+  }
+}
+
+@media screen and (max-width: 448px) {
+  .ServicesPageLogo {
+    font-size: 50px !important;
+  }
+}
+
+.navbar {
+  background-color: #141414;
+}
+
+.navbar-brand {
+  font-weight: 400;
+  font-family: 'Allan';
+  font-size: 35px !important;
+  color: white;
+}
+
+.themeAdder {
+  color: #f7e816;
+}
+
+.nav-link {
+  font-size: 18px !important;
+}
+
+a.nav-link.active {
+  border-bottom: 5px solid #f7e816;
+  color: #f7e816 !important;
+}
+
+a.nav-link:hover {
+  color: #f7e816 !important;
+  -webkit-transition: color 0.10s linear;
+  transition: color 0.10s linear;
+}
+
+.socialIcon {
+  color: #f7e816 !important;
+  font-size: 22px;
+}
+
+.navbar-toggler-icon {
+  color: #f7e816;
+  font-size: 30px;
+  margin-top: 15px;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+/*# sourceMappingURL=styles.css.map */

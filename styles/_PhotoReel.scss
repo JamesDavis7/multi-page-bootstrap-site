@@ -1,0 +1,52 @@
+// header image and logo
+
+.PhotoReelPageImage{
+    object-fit: cover; 
+    height: 50vh;
+    object-position: 50% 50%;
+    opacity: 50%
+}
+
+.PhotoReelPageLogo{
+    font-size: 95px;
+    font-family: $MainFont;
+    letter-spacing: 2px;
+}
+
+// end of header image and logo
+
+// top 10
+
+.photo{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    position: relative;
+    outline: none !important;
+}
+
+// end of top 10
+
+// media queries
+
+@media screen and (max-width: 1198px){
+        .PhotoReelPageLogo{
+        font-size: 70px !important
+    }
+}
+
+// Medium Screen Font
+@media screen and (max-width: 642px){
+        .PhotoReelPageLogo{
+        font-size: 60px !important
+    }
+}
+
+// Small Screen Font
+@media screen and (max-width: 448px){
+        .PhotoReelPageLogo{
+        font-size: 50px !important
+    }
+}
+
+// end of media queries

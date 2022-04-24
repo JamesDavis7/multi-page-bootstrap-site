@@ -1,0 +1,253 @@
+
+body{
+    background: rgb(20, 20, 20) !important;
+}
+
+
+// individual section text
+
+.sectionText{
+    font-family:'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+}
+
+//end of individual section text
+
+
+// carousel
+.myImg{
+    object-fit: cover;
+}
+.carousel-item{
+    .carousel-image{
+    object-fit: cover; 
+    height: 92vh;
+    object-position: middle top;
+}
+.carousel-caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.CaptionLogo{
+    font-family: $MainFont;
+    font-size: 95px;
+    letter-spacing: 2px;
+}
+
+.LowerLogoText{
+    font-size: 25px;
+    font-weight: 600;
+    color: $ColorTheme;
+}
+
+.lowerBtn{
+    padding: 15px 20px 15px 20px;;
+    width: 250px;
+    margin: 10px 10px 0px 10px;
+}
+}
+
+.lowerBtn:focus{
+    outline: none;
+}
+
+.PhotoReelButton{
+    text-decoration: none !important;
+    width: 260px !important;
+    background: transparent;
+    background: white;
+    color:rgb(20, 20, 20) !important;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    border: 1px solid white !important;
+    &:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white !important;
+    transition: background-color 0.20s linear;
+    }
+}
+
+.ServicesButton{
+    @extend .PhotoReelButton;
+    background: $ColorTheme;
+    border: 1px solid $ColorTheme !important;
+    &:hover{    
+    background-color: transparent;
+    color: $ColorTheme !important;
+    transition: background-color 0.20s linear;
+    }
+}
+
+
+.STC{
+    position: absolute;
+    bottom: 45px;
+    font-size: 18px;
+    color: $ColorTheme;
+}
+// end of carousel
+
+// lower cards
+.middle-image{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    position: relative;
+    opacity: 45%;
+&:hover{
+    opacity: 100%;
+    transition: 0.25s opacity ease-in-out;
+    border: 2px solid $ColorTheme;
+}
+}
+
+.card-title{
+    font-family: 'Allan';
+    font-size: 30px !important;
+}
+
+.seperator{
+    background-color: rgba(100, 100, 100, 0.534) !important;
+    margin: 90px 0px 80px 0px;
+}
+
+//end of lower cards
+
+
+// newsletter
+
+ .newsletter {
+     padding: 80px 0;
+     background: #D500F9
+ }
+
+ .emailInput{
+    font-size: 20px !important;
+ }
+
+
+ .newsletter .content {
+     max-width: 650px;
+     margin: 0 auto;
+     text-align: center;
+     position: relative;
+     z-index: 2
+ }
+
+
+ h2 {
+     color: #fff;
+     margin-bottom: 6px
+ }
+
+
+ .btn {
+     margin-top: 5px;
+     margin-left: 10px;
+     border-radius: 0;
+     background: $ColorTheme !important;
+     color: #fff;
+     font-weight: 500 !important;
+     font-family: 'Allan';
+     font-size: 20px !important;
+     &:hover{
+    background:rgb(20, 20, 20)  !important;
+     color: $ColorTheme !important;
+     border: 1px solid $ColorTheme;
+     }
+ }
+
+
+ .unsubscribe-link {
+     text-decoration: none !important;
+     font-size: 13px;
+     color: #fff;
+     &:hover{
+        text-decoration: none !important;
+        color: $ColorTheme;
+     }
+ }
+
+
+//end of newsletter
+
+// find us
+#map{
+    height: 400px;
+    width: 100%;
+}
+
+.findUsDetails{
+    font-size: 14px;
+}
+
+// end of find us
+
+// footer
+
+@import 'footer';
+
+// end of footer
+
+
+// media queries
+
+// Large Screen Font
+@media screen and (max-width: 1198px){
+        .sectionText{
+        font-size: 40px !important
+    }
+}
+
+@media screen and (max-width: 991px){
+    .STC{
+        display: none;
+    }    
+    .CaptionLogo{
+        font-size: 70px !important;
+    }
+    .LowerLogoText{
+        font-size: 19px !important;
+    }
+    .sectionText{
+        font-size: 35px !important
+    }
+    .socialIconFooter{
+        font-size: 20px !important;
+    }
+}
+
+// Medium Screen Font
+@media screen and (max-width: 642px){
+    .CaptionLogo{
+        font-size: 60px !important;
+    }
+    .LowerLogoText{
+        font-size: 15px !important;
+    }
+    .sectionText{
+        font-size: 35px !important
+    }
+}
+
+// Small Screen Font
+@media screen and (max-width: 448px){
+    .CaptionLogo{
+        font-size: 50px !important;
+    }
+    .LowerLogoText{
+        font-size: 10px !important;
+    }
+    .sectionText{
+        font-size: 25px !important
+    }
+}
+
+
+
+
+// end of media queries
